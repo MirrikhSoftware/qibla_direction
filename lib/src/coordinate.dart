@@ -15,10 +15,7 @@
 class Coordinate {
   final double latitude;
   final double longitude;
-  const Coordinate({
-    required this.latitude,
-    required this.longitude,
-  });
+  const Coordinate(this.latitude, this.longitude);
 
   @override
   String toString() => 'Coordinate(latitude: $latitude, longitude: $longitude)';
@@ -28,8 +25,8 @@ class Coordinate {
     double? longitude,
   }) {
     return Coordinate(
-      latitude: latitude ?? this.latitude,
-      longitude: longitude ?? this.longitude,
+      latitude ?? this.latitude,
+      longitude ?? this.longitude,
     );
   }
 }
