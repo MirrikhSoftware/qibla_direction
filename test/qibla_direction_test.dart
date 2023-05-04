@@ -1,13 +1,20 @@
 import 'package:test/test.dart';
+import 'package:qibla_direction/qibla_direction.dart';
 
 void main() {
-  group('A group of tests', () {
-    setUp(() {
-      // Additional setup goes here.
+  group('QiblaDirection', () {
+    test('find() returns correct direction', () {
+      // Coordinates of Tashkent
+      const coordinate = Coordinate(41.2995, 69.2401);
+      final direction = QiblaDirection.find(coordinate);
+      expect(direction, closeTo(240.30, 1.0));
     });
 
-    test('First Test', () {
-      expect(2 + 2 == 4, isTrue);
+    test('countDistance() returns correct distance', () {
+      // Coordinates of Tashkent
+      const coordinate = Coordinate(41.2995, 69.2401);
+      final distance = QiblaDirection.countDistance(coordinate);
+      expect(distance, closeTo(3531, 10));
     });
   });
 }
