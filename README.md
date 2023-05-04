@@ -1,3 +1,9 @@
+# Qibla direction
+[![pub package](https://img.shields.io/pub/v/qibla_direction.svg?logo=dart&logoColor=00b9fc)](https://pub.dartlang.org/packages/qibla_direction)
+[![CI](https://img.shields.io/github/actions/workflow/status/MirrikhSoftware/qibla_direction/dart.yml?branch=master&logo=github-actions&logoColor=white)](https://github.com/MirrikhSoftware/qibla_direction/actions)
+[![mit license](https://img.shields.io/github/license/MirrikhSoftware/qibla_direction?color=grren)](https://opensource.org/licenses/MIT)
+[![contributors](https://img.shields.io/github/contributors/MirrikhOpenSource/quran_uz)](https://github.com/MirrikhOpenSource/qibla_direction/contributors)
+[![commits](https://img.shields.io/github/commit-activity/m/MirrikhOpenSource/qibla_direction)](https://github.com/MirrikhOpenSource/qibla_direction/pulse)
 
 ## Getting started
 
@@ -23,6 +29,7 @@ import 'package:qibla_direction/qibla_direction.dart';
 Get the direction, in degrees from North, of the Qibla from a given set of coordinates.
 
 ```dart
+// Coordinates of Tashkent
 const coordinate = Coordinate(41.2995, 69.2401);
 final direction = QiblaDirection.find(coordinate);
 
@@ -32,9 +39,9 @@ final direction = QiblaDirection.find(coordinate);
 Get distance, in kilometers of the the Qibla from a given set of coordinates.
 
 ```dart
+// Coordinates of Tashkent
 const coordinate = Coordinate(41.2995, 69.2401);
 final direction = QiblaDirection.countDistance(coordinate);
 
 // Output: 3531.4030278182277
 ```
-
