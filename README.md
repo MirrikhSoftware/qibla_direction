@@ -1,9 +1,9 @@
 # Qibla direction
 [![pub package](https://img.shields.io/pub/v/qibla_direction.svg?logo=dart&logoColor=00b9fc)](https://pub.dartlang.org/packages/qibla_direction)
-[![CI](https://img.shields.io/github/actions/workflow/status/MirrikhSoftware/qibla_direction/dart.yml?branch=master&logo=github-actions&logoColor=white)](https://github.com/MirrikhSoftware/qibla_direction/actions)
-[![mit license](https://img.shields.io/github/license/MirrikhSoftware/qibla_direction?color=grren)](https://opensource.org/licenses/MIT)
-[![contributors](https://img.shields.io/github/contributors/MirrikhOpenSource/quran_uz)](https://github.com/MirrikhOpenSource/qibla_direction/contributors)
-[![commits](https://img.shields.io/github/commit-activity/m/MirrikhOpenSource/qibla_direction)](https://github.com/MirrikhOpenSource/qibla_direction/pulse)
+[![CI](https://img.shields.io/github/actions/workflow/status/MirrikhSoftware/qibla_direction/dart-ci.yaml?branch=master&logo=github-actions&logoColor=white)](https://github.com/MirrikhSoftware/qibla_direction/actions)
+[![mit license](https://img.shields.io/github/license/MirrikhSoftware/qibla_direction?color=green)](https://opensource.org/licenses/MIT)
+[![contributors](https://img.shields.io/github/contributors/MirrikhSoftware/qibla_direction)](https://github.com/MirrikhSoftware/qibla_direction/contributors)
+[![commits](https://img.shields.io/github/commit-activity/m/MirrikhSoftware/qibla_direction)](https://github.com/MirrikhSoftware/qibla_direction/pulse)
 
 ## Getting started
 
